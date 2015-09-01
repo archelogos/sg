@@ -101,12 +101,13 @@ h6 {
 }
 
 .section .section-content{
-    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+    padding: 5px;
 
 }
 
 .section.about{
-    background-color: #114b5f;
+    background-color: #1a936f;
     color: #fff;
 }
 
@@ -117,11 +118,16 @@ h6 {
 }
 
 .section.quote .section-content .mark{
-  color:#114B5F;
+  color:#1a936f;
+  font-size: 2em;
 }
 
 .section.about .section-content{
   border: 1px solid #fff;
+}
+
+.section.about .section-content a{
+  color: #fff;
 }
 
 .section.templates{
@@ -130,7 +136,7 @@ h6 {
 }
 
 .section.portfolio{
-    background-color: #88D498;
+    background-color: #1a936f;
     color: white;
 }
 
@@ -243,5 +249,5 @@ footer .section-content p{
 }
 
 footer .section-content .mark{
-  color:#114B5F;
+  color:#1a936f;
 }
