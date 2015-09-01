@@ -1,0 +1,254 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: none;
+    font-family: "Ubuntu";
+}
+
+@media(min-width:767px) {
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+/**Correcciones nav**/
+
+.navbar-default .navbar-brand{
+    color: #ff9c70;
+    font-family: "Pacifico";
+    font-size: 2em; 
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+    color:#ff9c70;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-toggle{
+    border: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: rgba(0,0,0,0);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: rgba(0,0,0,0);
+    color: #ff9c70;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #ff9c70;
+}
+.navbar-default {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+section{
+    text-align: center;
+}
+
+section h1{
+    text-transform: uppercase;
+    font-size: 52px;
+}
+
+section .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.full {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media(max-width:767px) {
+    .full{
+        background-attachment: inherit;
+    }
+}
+
+
+.primary-color{
+    color: #ff9c70;
+}
+
+.secondary-color{
+    color:#1D9E74;
+}
+
+.section-color-light{
+    color:#fff;
+}
+
+.section-color-dark{
+    color: #5e5e5e;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.2);
+    min-height: 100%;
+}
+
+/*--INTRO SECTION--*/
+.intro-section {
+    background-image: url(../img/chilis.jpg);
+}
+.intro-section .container{
+    padding-top: 200px;
+}
+@media(max-width:767px) {
+    .intro-section .container{
+        padding-top: 40px;
+    }
+}
+
+/*--SWEET SECTION--*/
+.sweet-section {
+    background-image: url(../img/icecream.jpg);
+}
+.sweet-section .overlay{
+    background-color: rgba(0,0,0,0.5);
+}
+.sweet-section .grid{
+    text-align: left;
+    margin: 20px 0 0 0;
+}
+
+/*--SALTY SECTION--*/
+.salty-section {
+    background-image: url(../img/paella.jpg);
+}
+.salty-section .overlay{
+    background-color: rgba(0,0,0,0.8);
+}
+.salty-section .gallery{
+    margin: 20px 0 0 0;
+}
+.salty-section .gallery .thumbnail{
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.salty-section h4{
+    font-size: 14px;
+}
+
+/*--BITTER SECTION--*/
+.bitter-section {
+    background-image: url(../img/coffee.jpg);
+}
+.bitter-section .tabs{
+    text-align: left;
+    margin: 20px 0 0 0;
+}
+.bitter-section .tabs .nav-tabs {
+    border-bottom: 2px solid #fff;
+}
+.bitter-section .tabs .nav-tabs>li>a{
+    color:#fff;
+    font-size: 18px;
+}
+.bitter-section .tabs .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: #1D9E74;
+}
+.bitter-section .tabs .nav>li>a:focus, .nav>li>a:hover{
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+.bitter-section .tabs .tab-content{
+    padding: 20px;
+}
+
+@media(max-width:767px) {
+    .bitter-section .nav-tabs>li{
+        float:none;
+    }
+}
+
+/*--SOUR SECTION--*/
+.sour-section {
+    background-image: url(../img/lemon.jpg);
+}
+.sour-section .contact{
+    text-align: left;
+    margin: 20px 0 0 0;
+}
+.sour-section .form-control{
+    border: 2px solid white;
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+}
+.sour-section .form-control:focus{
+    background-color: #fff;
+    color: #ff9c70;
+}
+.sour-section .form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+.sour-section .form-control:-moz-placeholder { /* Firefox 18- */
+    color: #fff;  
+}
+.sour-section .form-control::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;  
+}
+.sour-section .form-control:-ms-input-placeholder {  
+    color: #fff;  
+}
+.sour-section .form-control:focus::-webkit-input-placeholder {
+    color: #ff9c70;
+}
+.sour-section .form-control:focus:-moz-placeholder { /* Firefox 18- */
+    color: #ff9c70;
+}
+.sour-section .form-control:focus::-moz-placeholder {  /* Firefox 19+ */
+    color: #ff9c70;
+}
+.sour-section .form-control:focus:-ms-input-placeholder {  
+    color: #ff9c70;
+}
+
+.sour-section .about{
+    margin: 40px 0 0 0;
+}
+.sour-section .about a{
+    color: #fff;
+}
+.sour-section .about a:focus, .sour-section .about a:hover{
+    color: #ff9c70;
+}
+
+

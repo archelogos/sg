@@ -1,0 +1,420 @@
+/*!
+ * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu';
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bg-primary {
+    background-color: #3F51B5;
+}
+
+.color-primary {
+    color: #3F51B5;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+aside {
+    background: url(../img/ballons.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+}
+
+aside .container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+aside h2{
+    font-family: 'Pacifico';
+
+}
+
+aside .overlay{
+    background-color: rgba(0,0,0,0.2);
+    min-height: 100%;
+}
+
+@media(max-width:767px) {
+    aside{
+        background-attachment: inherit;
+    }
+}
+
+/* NAVBAR */
+
+.navbar-default {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+.navbar-default .navbar-brand{
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 2em; 
+    padding: 12px 15px;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-toggle{
+    border: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: rgba(0,0,0,0);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #3F51B5;
+}
+.navbar-default.affix {
+    background-color: rgba(255,255,255,0.95);
+}
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #3F51B5;
+}
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #3F51B5;
+}
+.navbar-default.affix .navbar-nav>li>a{
+    color: #3F51B5;
+}
+.navbar-default.affix .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #3F51B5;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .navbar-default .navbar-nav{
+        float:right;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+@media(max-width:767px) {
+    .navbar-default{
+        background-color: #3F51B5;
+    }
+
+    .navbar-default .navbar-nav{
+        float:left;
+    }
+    .navbar-default .nav > li>a, .navbar-default .nav>li>a:focus{
+        color: #fff;
+    }
+
+    .navbar-default .nav > li>a:hover, .navbar-default .nav>li>a:focus:hover{
+        color: #fff;
+    }
+
+    .navbar-default.affix {
+        background-color: #3F51B5;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        color: #fff;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-default.affix .navbar-nav>li>a{
+        color: #fff;
+    }
+
+    .navbar-default.affix .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+        color: #fff;
+    }
+}
+
+/* HEADER */
+
+header{
+    background: url('../img/golden-gate.jpg') no-repeat center;
+    background-size: cover; 
+    text-align: left;
+    color: #fff;
+    padding:80px 0 80px 0;
+}
+
+header h1{
+    font-size: 28px;
+}
+
+header ul{
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+header .subclaim{
+    font-family: 'Ubuntu';
+    font-size: 20px;
+}
+
+header .ld-cta{
+    width: auto;
+}
+
+header .price{
+    font-family: 'Ubuntu'; 
+    display:block; 
+    overflow: hidden;
+    color: #fff;
+    padding: 10px 0 40px 0;
+}
+
+header .price .desde{
+    font-size: 14px;
+    color: #fff;
+}
+
+header .price .num{
+    font-size: 85px;
+    line-height: 0.8em;
+}
+
+header .price .euro{
+    font-size: 36px;
+    line-height: 1em;
+}
+header .price .iva{
+    font-size: 14px;
+    display: block;
+}
+
+header .price .iva2{
+    font-size: 10px;
+}
+
+header form{
+    padding: 30px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+
+/* INTRO */
+
+#intro .head h2{margin:0px 0 60px 0;}
+
+/* FEATURES */
+
+#features .head h2{margin:0px 0 60px 0;}
+
+#features .box {
+	text-align: center;
+	padding: 10px;
+	margin: 10px 0;
+    background-color: #eeeeee;
+    min-height: 330px;
+}
+#features .box i {
+    font-size: 90px;
+    margin: 15px 0 5px;
+    text-align: center;
+}
+#features .box:hover i {
+    color: #303f9f;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#features .box p{
+    font-size:14px; 
+    font-family: 'Ubuntu';
+}
+
+/* FAQS */
+
+#faqs .head h2{margin:0px 0 60px 0;}
+
+#faqs .panel-group{margin: 20px 0;}
+
+#faqs .panel-group .panel {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border: none;
+}
+#faqs .panel-default > .panel-heading {
+	padding: 0;
+	outline: none;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	width: 100%;
+}
+#faqs .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border: 1px solid #f0f0f0;
+	border-top: none;
+	background-color: #fafafa;
+    font-family: Ubuntu;
+}
+#faqs .panel-heading a {
+	font-weight: 400;
+	padding: 12px 35px 12px 15px;
+	display: inline-block;
+	width: 100%;
+	background-color: #e84c3d;
+	color: #ffffff;
+	position: relative;
+	text-decoration: none;
+}
+#faqs .panel-dark .panel-heading a,
+#faqs .panel-dark .panel-heading a:hover {
+	background-color: #3F51B5;
+}
+
+#faqs .panel-heading a.collapsed {
+	color: #ffffff;
+	background-color: #7986cb;
+}
+#faqs .panel-heading a:after {
+	font-family: "FontAwesome";
+	content: "\f147";
+	position: absolute;
+	right: 15px;
+	font-size: 14px;
+	font-weight: 300;
+	top: 50%;
+	line-height: 1;
+	margin-top: -7px;
+}
+#faqs .panel-heading a.collapsed:after {
+	content: "\f196";
+}
+#faqs .panel-heading a:hover,
+#faqs .panel-transparent .panel-heading a:hover {
+	text-decoration: none;
+	background-color: #e84c3d;
+	color: #ffffff;
+}
+#faqs .panel-title a i {
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+/* TESTIMONIALS */
+
+#testimonials .head h2{margin:0px 0 60px 0;}
+
+#testimonials {
+  padding-bottom: 80px;
+}
+#testimonials .carousel-indicators {
+  bottom: -60px;
+  z-index: auto;
+}
+#testimonials .carousel-indicators li {
+  background: #cccccc;
+  border: none;
+  margin: 1px;
+}
+#testimonials .carousel-indicators li.active {
+  background: #3F51B5;
+  border: none;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+}
+
+#testimonials .item .profile {
+  position: absolute;
+  left: 0;
+}
+#testimonials .item .content {
+  padding-left: 210px;
+}
+#testimonials .item blockquote {
+  font-size: 20px;
+  font-weight: 300;
+  border-left: 0;
+  padding: 0;
+  position: relative;
+}
+#testimonials .item blockquote .fa {
+  position: absolute;
+  color: #3F51B5;
+  font-size: 22px;
+  left: -45px;
+}
+#testimonials .item .source {
+  color: #3F51B5;
+}
+#testimonials .item .source .title {
+  font-size: 16px;
+  color: #666666;
+}
+
+#testimonials .profile img{
+  border: none;
+  vertical-align: middle;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 10px;
+  max-width: 100px;
+}
+
+/* FOOTER */ 
+
+footer {
+    padding: 20px 0;
+}
+footer  a{
+    color: #fff;
+}
+footer a:focus, footer a:hover{
+    color: #fff;
+}
