@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+.margin-b10{
+  margin-bottom: 10px;
+}
+
 .container{
   min-width: 320px;
 }
@@ -135,6 +139,70 @@ h6 {
     color: #1A936F;
 }
 
+.section.knowledge{
+    background-color: #fff;
+    color: #1A936F;
+}
+
+.section.knowledge .skills .title {
+  margin-bottom: 20px;
+}
+.section.knowledge .skills .title h3 {
+  margin-top: 0px;
+}
+.section.knowledge .skills .skillbars .bar-container {
+  width: 50%;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+@media (max-width:767px) {
+  .section.knowledge .skills .skillbars .bar-container {
+    width: 100%;
+    float: none;
+  }
+}
+
+.section.knowledge .skills .skillbars .bar-container p {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.section.knowledge .skills .skillbars .bar-container .meter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 100%;
+}
+.section.knowledge .skills .skillbars .bar-container .meter:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  right: -20px;
+  top: 0px;
+}
+
+.section.knowledge .skills .skillbars .bar-container .meter {
+  background: #1A936F;
+}
+.section.knowledge .skills .skillbars .bar-container .meter:after {
+  border-left: 20px solid #1A936F;
+}
+
 .section.portfolio{
     background-color: #1a936f;
     color: white;
@@ -149,6 +217,21 @@ h6 {
 
 .section.portfolio .section-content .card.card-myj .card-img{
   background-image: url(/assets/images/myj.jpg);
+  background-size: cover;
+}
+
+.section.portfolio .section-content .card.card-futurial .card-img{
+  background-image: url(/assets/images/futurial-capture.jpg);
+  background-size: cover;
+}
+
+.section.portfolio .section-content .card.card-foody .card-img{
+  background-image: url(/assets/images/foody-capture.jpg);
+  background-size: cover;
+}
+
+.section.portfolio .section-content .card.card-converter .card-img{
+  background-image: url(/assets/images/converter-capture.jpg);
   background-size: cover;
 }
 

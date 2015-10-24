@@ -1,5 +1,7 @@
 'use strict';
 
+new WOW().init();
+
 angular.module('sgApp', [
   'ngCookies',
   'ngResource',
