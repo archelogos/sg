@@ -1,6 +1,6 @@
 {
   "name": "sg",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "server/app.js",
   "dependencies": {
     "express": "~4.9.0",
