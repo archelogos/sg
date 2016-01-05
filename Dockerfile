@@ -2,19 +2,13 @@ FROM nodesource/node:4.0
 
 MAINTAINER Sergio Gordillo "sgordillogallardo@gmail.com"
 
-# Update aptitude with new repo
-#RUN apt-get update
-
-# Clone our private GitHub Repository
-RUN git clone -b docker https://github.com/archelogos/sg.git
-RUN cd sg
-
-RUN npm install
-
-RUN grunt build
+#copy code
+COPY package.json package.json
+COPY ./server /server
+COPY ./public /public
 
 RUN export NODE_ENV=production
 
-EXPOSE 9000
+EXPOSE 8080
 
-CMD ["grunt", "serve:dist”]
+CMD ["node", "server/app.js"]
