@@ -215,6 +215,11 @@ h6 {
   box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
 }
 
+.section.portfolio .section-content .card.card-nama .card-img{
+  background-image: url(/assets/images/nama.jpg);
+  background-size: cover;
+}
+
 .section.portfolio .section-content .card.card-myj .card-img{
   background-image: url(/assets/images/myj.jpg);
   background-size: cover;

@@ -159,7 +159,7 @@ module.exports = function (grunt) {
       },
       server: '.tmp'
     },
-    
+
     // Debugging with node inspector
     'node-inspector': {
       custom: {
@@ -331,7 +331,8 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'assets/images/{,*/}*.{webp}',
             'assets/fonts/**/*',
-            'index.html'
+            'index.html',
+            'templates/**/*'
           ]
         }, {
           expand: true,
